@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		056C679E5169889877DEBDDA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4200A8D112B17FCC73B7358 /* libPods.a */; };
 		85672B001BCBEDE800BCD0D7 /* WebViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85672AFF1BCBEDE800BCD0D7 /* WebViewController1.swift */; settings = {ASSET_TAGS = (); }; };
+		85FBA5AF1BCE693700CA5717 /* libPushSDK-1.8.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FBA5AE1BCE693700CA5717 /* libPushSDK-1.8.5.a */; settings = {ASSET_TAGS = (); }; };
 		D23DCFDC1BC272DD00C32F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23DCFD71BC272DD00C32F94 /* AppDelegate.swift */; };
 		D23DCFDE1BC272DD00C32F94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23DCFD91BC272DD00C32F94 /* Images.xcassets */; };
 		D23DCFDF1BC272DD00C32F94 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D23DCFDA1BC272DD00C32F94 /* Info.plist */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		197015E37310C125A909AEF2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		85672AFF1BCBEDE800BCD0D7 /* WebViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController1.swift; sourceTree = "<group>"; };
+		85FBA5AD1BCE693700CA5717 /* APService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APService.h; path = "../JPush-iOS-SDK-1.8.5/lib/APService.h"; sourceTree = "<group>"; };
+		85FBA5AE1BCE693700CA5717 /* libPushSDK-1.8.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPushSDK-1.8.5.a"; path = "../JPush-iOS-SDK-1.8.5/lib/libPushSDK-1.8.5.a"; sourceTree = "<group>"; };
 		D23DCFD71BC272DD00C32F94 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = rxNewsApp/AppDelegate.swift; sourceTree = "<group>"; };
 		D23DCFD91BC272DD00C32F94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = rxNewsApp/Images.xcassets; sourceTree = "<group>"; };
 		D23DCFDA1BC272DD00C32F94 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = rxNewsApp/Info.plist; sourceTree = "<group>"; };
@@ -64,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				056C679E5169889877DEBDDA /* libPods.a in Frameworks */,
+				85FBA5AF1BCE693700CA5717 /* libPushSDK-1.8.5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +128,8 @@
 				D26734801BC3C5A500E63D15 /* WebViewController.swift */,
 				85672AFF1BCBEDE800BCD0D7 /* WebViewController1.swift */,
 				D23DCFDB1BC272DD00C32F94 /* ViewController.swift */,
+				85FBA5AD1BCE693700CA5717 /* APService.h */,
+				85FBA5AE1BCE693700CA5717 /* libPushSDK-1.8.5.a */,
 				D23DCFED1BC27F8B00C32F94 /* TushuoViewController.swift */,
 				D26734821BC3E35700E63D15 /* tsShowCardViewController.swift */,
 				D23DCFEB1BC27ED400C32F94 /* CollageViewController.swift */,
